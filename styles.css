@@ -145,4 +145,112 @@ footer p{font-size:.86rem;margin:.28rem 0}footer a{font-weight:700}
   .split{grid-template-columns:1fr;text-align:center}.headshot{width:125px}.pill-grid{grid-template-columns:1fr}
   .credential-grid,.steps-grid,.location-grid,.form-row{grid-template-columns:1fr}.badges{justify-content:center}
   .cta-band{flex-direction:column;align-items:flex-start}
+  /* =====================================================
+   GOOGLE REVIEW SECTION
+===================================================== */
+
+.google-review-section {
+  padding: 60px 20px;
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #f4f8fc 45%,
+    #e4effa 100%
+  );
+}
+
+.google-review-card {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 45px 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(12, 55, 103, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 39, 82, 0.10);
+}
+
+.review-stars {
+  margin-bottom: 12px;
+  color: #d4a017;
+  font-size: 1.35rem;
+  letter-spacing: 4px;
+}
+
+.google-review-card h2 {
+  margin: 0 0 10px;
+  color: #0b3767;
+  font-size: 2rem;
+}
+
+.review-lead {
+  margin: 0 0 15px;
+  color: #b31e25;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.review-text {
+  max-width: 680px;
+  margin: 0 auto 28px;
+  color: #3f4b59;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.google-review-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  color: #ffffff;
+  background: #0b3767;
+  border: 2px solid #0b3767;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.google-review-btn:hover,
+.google-review-btn:focus {
+  color: #0b3767;
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px rgba(0, 39, 82, 0.15);
+}
+
+.review-thank-you {
+  margin: 20px 0 0;
+  color: #66717e;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .google-review-section {
+    padding: 40px 16px;
+  }
+
+  .google-review-card {
+    padding: 32px 22px;
+  }
+
+  .google-review-card h2 {
+    font-size: 1.65rem;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+
+  .google-review-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
 }
