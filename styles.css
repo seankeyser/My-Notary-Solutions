@@ -187,3 +187,27 @@ footer p{font-size:.86rem;margin:.28rem 0}footer a{font-weight:700}
   .google-review-card{padding:2rem 1.25rem}
   .google-review-btn{display:flex;width:100%}
 }
+
+/* =====================================================
+   RON BLUE SECTION CARD READABILITY
+===================================================== */
+.blue-section .step {
+  background: #ffffff;
+  border: 1px solid #c9dceb;
+}
+
+.blue-section .step h3 {
+  color: #0b2f55;
+  font-weight: 700;
+  font-size: 1.08rem;
+}
+
+.blue-section .step p {
+  color: #3f5870;
+}
+
+.blue-section .step .num {
+  background: #dceefa;
+  color: #0b5f9e;
+}
+
