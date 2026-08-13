@@ -303,11 +303,13 @@ button, input, select, textarea { font: inherit; }
   mix-blend-mode: multiply;
 }
 
-.badge-img:nth-child(3),
-.badges img:nth-child(3) {
+.badge-img,
+.badges img {
   height: 60px;
-  width: auto;
+  width: 60px;
   object-fit: contain;
+  display: block;
+  mix-blend-mode: multiply;
 }
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
 .credential-grid {
