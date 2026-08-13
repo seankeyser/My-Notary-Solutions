@@ -297,7 +297,8 @@ button, input, select, textarea { font: inherit; }
 .badge-img:nth-child(2),
 .badges img:nth-child(2) {
   mix-blend-mode: normal;
-  filter: invert(1) invert(1) brightness(1.1);
+  filter: brightness(0) invert(0);
+  background: transparent;
 }
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
 .credential-grid {
