@@ -294,6 +294,11 @@ button, input, select, textarea { font: inherit; }
   mix-blend-mode: multiply;
 }
 
+.badge-img:nth-child(2),
+.badges img:nth-child(2) {
+  mix-blend-mode: screen;
+}
+
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
 .credential-grid {
   display: grid;
