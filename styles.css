@@ -291,6 +291,7 @@ button, input, select, textarea { font: inherit; }
   width: auto;
   object-fit: contain;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
