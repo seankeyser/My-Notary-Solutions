@@ -294,11 +294,20 @@ button, input, select, textarea { font: inherit; }
   mix-blend-mode: multiply;
 }
 
-.badge-img:nth-child(2),
-.badges img:nth-child(2) {
-  mix-blend-mode: normal;
-  filter: brightness(0) invert(0);
-  background: transparent;
+.badge-img,
+.badges img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  mix-blend-mode: multiply;
+}
+
+.badge-img:nth-child(3),
+.badges img:nth-child(3) {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
 }
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
 .credential-grid {
