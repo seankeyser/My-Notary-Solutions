@@ -288,7 +288,7 @@ button, input, select, textarea { font: inherit; }
 .badge-img,
 .badges img {
   height: 60px;
-  width: 60px;
+  width: auto;
   object-fit: contain;
   display: block;
   mix-blend-mode: multiply;
