@@ -306,7 +306,7 @@ button, input, select, textarea { font: inherit; }
 .badge-img:nth-child(3),
 .badges img:nth-child(3) {
   height: 60px;
-  width: 60px;
+  width: auto;
   object-fit: contain;
 }
 /* ── CREDENTIAL GRID ─────────────────────────────────────── */
